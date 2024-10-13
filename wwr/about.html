@@ -15,7 +15,7 @@
     <body>
 <header>
     <img src="images/logo.png" alt="Paul's Rafting">
-    <nav>
+    <nav class="flexbox-container">
         <ul class="navigation">
             <li><a href="index.html">Index</a></li>
             <li><a href="about.html">About</a></li>
@@ -34,37 +34,54 @@
         </article>
 
         <section >
-    <h2>History</h2>
-    <p >Ecuador has  great places to spend time with family and friends with these places we have created spaces to child and adults to have fun with a low cost and a variety of options.</p>
+            <h2>History</h2>
+            <div class="flexbox-container">
+                <div class="flexbox-item flexbox-item-1">
+                    <p >Ecuador has  great places to spend time with family and friends with these places we have created spaces to child and adults to have fun with a low cost and a variety of options.</p>
+                </div>
+                <div class="flexbox-item flexbox-item-2">
+                <img src="images/cotopaxi.jpg" alt="Cotopaxi volcano"></img>
+                </div>
+                <div class="flexbox-item flexbox-item-3">
+                    <p>Ecuador has so many places like Cotopaxi's volcano which is a active volcano in middle of Ecuador, with a cold temperature almost all the year</p>
+                </div>
+            </div>
         </section>
         <section>
             <h2>Adentures</h2>
-            <figure><img class="images" src="images/image1.jpg" alt="image1"><figcaption>Huasquila Amazon Lodge</figcaption></figure>
-            <figure><img class="images"  src="images/image2.jpg" alt="image2"><figcaption>"Baños Adventure"</figcaption></figure>
-            <figure><img class="images"  src="images/image3.jpg" alt="image3"><figcaption>"Aguas Bravas"</figcaption></figure>
-            <figure><img class="images"  src="images/image4.jpg" alt="image4"><figcaption>"Pastaza River"</figcaption></figure>
-            <figure><img class="images"  src="images/image5.jpg" alt="image5"><figcaption>"Piatua River"</figcaption></figure>
-            <img class="images"  src="images/image6.jpg" alt="image6">
+            <div class="flexbox-container">
+                <figure class="flexbox-item flexbox-item-1"><img class="images" src="images/image1.jpg" alt="image1"><figcaption>Huasquila Amazon Lodge</figcaption></figure>
+                <figure class="flexbox-item flexbox-item-1"><img class="images"  src="images/image2.jpg" alt="image2"><figcaption>"Baños Adventure"</figcaption></figure>
+                <figure class="flexbox-item flexbox-item-1"><img class="images"  src="images/image3.jpg" alt="image3"><figcaption>"Aguas Bravas"</figcaption></figure>
+                <figure class="flexbox-item flexbox-item-1"><img class="images"  src="images/image4.jpg" alt="image4"><figcaption>"Pastaza River"</figcaption></figure>
+                <figure class="flexbox-item flexbox-item-1"><img class="images"  src="images/image5.jpg" alt="image5"><figcaption>"Piatua River"</figcaption></figure>
+            </div>
+           <!-- <img class="images"  src="images/image6.jpg" alt="image6">
             <img class="images"  src="images/image7.jpg" alt="image7">
             <img class="images"  src="images/image8.jpg" alt="image8">
             <img class="images"  src="images/image9.jpg" alt="image9">
-            <img class="images"  src="images/image10.jpg" alt="image10">
+            <img class="images"  src="images/image10.jpg" alt="image10">-->
         </section>
     </div>
 </main>
 <footer>
-        <nav class="sociallinks">
-            <a href="https://facebook.com">
-                <img src="images/facebook.svg" alt="facebook">
-            </a>
-            <a href="https://twitter.com">
-                    <img src="images/twitter.svg" alt="Twitter">
-            </a>
-            <a href="https://instagram.com">
-                <img src="images/instagram.svg" alt="Instagram">
-            </a>
-        </nav>
-    <p> &copy; 2024  &#128512; Paul Torres  </p>
+        <div class="flexbox-container-footer">
+        <div class="flexbox-item-footer flexbox-item-footer-1">
+            <nav>
+                <a href="https://facebook.com">
+                    <img src="images/facebook.svg" alt="facebook">
+                </a>
+                <a href="https://twitter.com">
+                        <img src="images/twitter.svg" alt="Twitter">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="images/instagram.svg" alt="Instagram">
+                </a>
+            </nav>
+        </div>    
+    </div>
+
 </footer>
+<p> &copy; 2024  &#128512; Paul Torres  </p>
     </body>
 </html>
