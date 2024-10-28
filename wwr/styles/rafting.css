@@ -121,3 +121,12 @@ figcaption {
     background-color: aliceblue;
     position: absolute;
 }
+
+.p_purpose {
+ font-size: x-large;
+}
+
+.flex_section{
+    flex-direction: column;
+    border: 10px;
+}
