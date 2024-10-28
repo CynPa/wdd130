@@ -130,3 +130,9 @@ figcaption {
     flex-direction: column;
     border: 10px;
 }
+
+.flexbox-container-trip {
+    display: flex;
+    flex-direction: column;
+    justify-content:  space-around;
+}
