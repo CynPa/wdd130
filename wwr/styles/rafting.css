@@ -136,3 +136,15 @@ figcaption {
     flex-direction: column;
     justify-content:  space-around;
 }
+
+.information {
+    left: 80px;
+    padding: 50px;
+}
+
+.information-table{
+    align-self: center;
+    align-content: center;
+    border: #000;
+    column-rule-color: aqua;
+}
