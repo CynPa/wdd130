@@ -14,16 +14,20 @@
 }
 
 #pk {
+    /*position: fixed;*/
     position: absolute;
-    float: right;
-    bottom: 25px;
-    left: 15px;
+    float: unset;
+    bottom: 4px;
+    left: 100px;
     background-color: aliceblue;
     border: 1px solid #000;
 	padding: 0.65rem;
 	box-shadow: 0 0 30px #111;
+    box-sizing: content-box;
 	opacity: 0.6;
 }
+
+
 
 /*    float: right;
     background-color:aqua;
@@ -59,7 +63,7 @@ header {
     background-color: #dfdfdf;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content:  space-around;
 
 }
 
@@ -111,4 +115,9 @@ footer {
 
 .imagen_full {
     width: 100%;
+}
+
+figcaption {
+    background-color: aliceblue;
+    position: absolute;
 }
