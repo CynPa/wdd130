@@ -144,25 +144,22 @@ figcaption {
 }
 
 .information-table{
-    align-self: center;
-    align-content: center;
-    border: #000;
-    column-rule-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+
+    
 }
 
 .sign_section{
-    padding: 40px;
-    left: 3%;
-    right: 40px;
+    padding: 10px;
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
 
 }
 .sign_div {
-    border-radius: 10px;
     border-color: #000;
     background-color: antiquewhite;
-    border: 40px;
     font-size: x-large;
 
 
